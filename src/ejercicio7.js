@@ -1,11 +1,20 @@
+
 let precioUnitario = 25;
 let cantidad = 60;
 let precioFinal;
+let total = precioUnitario * cantidad;
+let descuento = 0;
+
 if (cantidad < 10) {
-  precioFinal = precioUnitario * cantidad;
+    descuento = 0;
 } else if (cantidad >= 10 && cantidad < 50) {
-  precioFinal = precioUnitario * cantidad * 0.9;
+    descuento = 0.10;
 } else if (cantidad >= 50) {
-  precioFinal = precioUnitario * cantidad * 0.8;
+    descuento = 0.20; 
 }
-console.log(precioFinal.toFixed(2));
+
+precioFinal = total - (total * descuento);
+precioFinal = Math.round(precioFinal * 100) / 100;
+
+console.log(precioFinal);
+

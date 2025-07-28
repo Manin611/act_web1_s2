@@ -1,47 +1,5 @@
 # 🏋️‍ Actividad de Condicionales JavaScript (solo `if / else / else if / switch`)
 
-**Repositorio GitHub** → `https://github.com/tu-usuario/condicionales-sin-funciones`
-
----
-
-## 📦 Instrucciones rápidas
-
-1. **Fork** → `https://github.com/tu-usuario/condicionales-sin-funciones`
-2. **Clone**  
-   ```bash
-   git clone https://github.com/TU-USUARIO/condicionales-sin-funciones.git
-   cd condicionales-sin-funciones
-   ```
-3. **Crea** un archivo `ejercicioX.js` (X = 1-10) dentro de `/src`.  
-   **IMPORTANTE**: usa únicamente variables, `if`, `else`, `else if`, `switch`, operadores y `console.log`.  
-   **No** declares funciones ni uses ciclos.
-4. **Ejecuta** tu archivo:  
-   ```bash
-   node src/ejercicio1.js
-   ```
-5. **Commit / Push / PR**  
-   ```bash
-   git add .
-   git commit -m "feat: ejercicio X resuelto"
-   git push origin main
-   ```
-
----
-
-## 📁 Estructura del repo
-
-```
-condicionales-sin-funciones/
-├── README.md
-├── src/
-│   ├── ejercicio1.js
-│   ├── ejercicio2.js
-│   ├── ...
-│   └── ejercicio10.js
-└── .gitignore
-```
-
----
 
 ## 🧩 Ejercicios (solo condicionales)
 

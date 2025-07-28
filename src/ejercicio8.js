@@ -1,12 +1,21 @@
+
 let edad = 67;
 let distanciaKm = 120;
 let tarifaBase = distanciaKm * 0.21;
+let descuento = 0;
 let precioFinal;
+
 if (edad < 18) {
-  precioFinal = tarifaBase * 0.8;
+    descuento = 0.20; 
 } else if (edad >= 65) {
-  precioFinal = tarifaBase * 0.6;
+    descuento = 0.40; 
 } else {
-  precioFinal = tarifaBase;
+    descuento = 0; 
 }
-console.log(precioFinal.toFixed(2));
+
+precioFinal = tarifaBase - (tarifaBase * descuento);
+precioFinal = Math.round(precioFinal * 100) / 100;
+
+console.log(precioFinal);
+
+
