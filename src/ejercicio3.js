@@ -8,3 +8,4 @@ if (edad >= 0 && edad <= 12) {
 } else if (edad >= 65) {
   console.log("anciano");
 }
+// act2
