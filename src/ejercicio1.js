@@ -4,4 +4,4 @@ if (numero % 2 === 0) {
 } else {
   console.log("impar");
 }
-// act2
+// act2.
